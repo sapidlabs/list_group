@@ -19,7 +19,7 @@ class ListGroup extends StatelessWidget {
         elevation: 1,
         shape: RoundedRectangleBorder(
           side: BorderSide(color: Colors.grey, width: 0.1),
-          borderRadius: BorderRadius.circular(4.0)
+          borderRadius: BorderRadius.circular(4.0),
         ),
         child: Padding(
           padding: EdgeInsets.all(4.0),
@@ -31,4 +31,3 @@ class ListGroup extends StatelessWidget {
     );
   }
 }
-
