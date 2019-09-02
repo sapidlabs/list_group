@@ -45,6 +45,7 @@ class ListGroupItem extends StatelessWidget {
           onLongPress: enabled ? onLongPress : null,
           leading: leading,
           title: title,
+          subtitle: subtitle,
           trailing: trailing,
         ),
         if (!lastItem) Divider()
