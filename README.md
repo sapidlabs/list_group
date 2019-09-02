@@ -12,16 +12,20 @@ A flutter package for Android and iOS, that allows you to add grouped list items
 
 Add the dependency to your **pubspec.yaml** file.
 
-```dart
+```yaml
   dependencies:
     flutter:
       sdk: flutter
-    list_group: 0.0.1
+    list_group:
 ```
 
 ### Use within your application.
 
 ```dart
+import 'package:list_group/list_group.dart';
+import 'package:list_group/list_group_item.dart';
+
+
 ListGroup(
   items: [
     ListGroupItem(
