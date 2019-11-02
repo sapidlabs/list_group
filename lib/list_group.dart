@@ -4,10 +4,23 @@ import 'package:flutter/material.dart';
 import './list_group_item.dart';
 
 class ListGroup extends StatelessWidget {
+
   final List<ListGroupItem> items;
+
+  // List group border size
+  final borderWidth;
+
+  // List group border color
+  final borderColor;
+
+  // List group border radius
+  final borderRadius;
 
   ListGroup({
     Key key,
+    this.borderWidth = 0.1,
+    this.borderColor = Colors.grey,
+    this.borderRadius = 4.0,
     @required this.items,
   }) : assert(items.length > 0);
 
@@ -18,8 +31,8 @@ class ListGroup extends StatelessWidget {
       child: Material(
         elevation: 1,
         shape: RoundedRectangleBorder(
-          side: BorderSide(color: Colors.grey, width: 0.1),
-          borderRadius: BorderRadius.circular(4.0),
+          side: BorderSide(color: borderColor, width: borderWidth),
+          borderRadius: BorderRadius.circular(borderRadius),
         ),
         child: Padding(
           padding: EdgeInsets.all(4.0),

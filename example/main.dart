@@ -17,6 +17,9 @@ class MyApp extends StatelessWidget {
         body: SingleChildScrollView(
           child: Container(
             child: ListGroup(
+              borderColor: Colors.grey,
+              borderRadius: 3.0,
+              borderWidth: 0.2,
               items: [
                 ListGroupItem(
                   leading: Icon(
