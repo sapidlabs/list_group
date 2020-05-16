@@ -9,3 +9,9 @@
  ## [0.1.0]
  * Now you can change the color of list group
  * borderColor, borderRadius and borderWidth are available as optional values for list group.
+
+ ## [0.1.1]
+ Update dependencies.
+
+ ## [0.1.2]
+ Update sdk

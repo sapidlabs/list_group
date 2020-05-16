@@ -1,11 +1,10 @@
 name: list_group
 description: A flutter which provides two widgets ListGroup and ListGroupItem which can be used to add Grouped ListItems to one list can be used for both Android and iOS. See screenshots.
-version: 0.1.0
-author: Abhishek<abhishek@sapidlabs.com>
+version: 0.1.2
 homepage: https://github.com/sapidlabs/list_group
 
 environment:
-  sdk: ">=2.1.0 <3.0.0"
+  sdk: ">=2.4.0 <3.0.0"
 
 dependencies:
   flutter:
